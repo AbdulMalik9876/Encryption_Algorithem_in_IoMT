@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/FYP_Project/static/css/main.6f9ded94.css",
+    "main.js": "/FYP_Project/static/js/main.45bbee93.js",
+    "static/js/488.d9702bb7.chunk.js": "/FYP_Project/static/js/488.d9702bb7.chunk.js",
+    "static/media/esp32-circuit.jpg": "/FYP_Project/static/media/esp32-circuit.9294875670cf348dff99.jpg",
+    "static/media/math-diagram.jpg": "/FYP_Project/static/media/math-diagram.a43336dc1e8e03f975eb.jpg",
+    "static/media/hassan.jpg": "/FYP_Project/static/media/hassan.a7b80eacae9dfb670825.jpg",
+    "static/media/am.jpg": "/FYP_Project/static/media/am.9c3a2c15aec12a55ae23.jpg",
+    "static/media/mission-image.jpg": "/FYP_Project/static/media/mission-image.e456b21b18cf304d39d5.jpg",
+    "static/media/logo.png": "/FYP_Project/static/media/logo.2453836bab459d0dbc26.png",
+    "static/media/chip.png": "/FYP_Project/static/media/chip.52fbfabefe4a50a0f287.png",
+    "static/media/key.png": "/FYP_Project/static/media/key.a014829b9dcbd0d58eae.png",
+    "static/media/our_story.jpeg": "/FYP_Project/static/media/our_story.f1874f5c07ae05129f50.jpeg",
+    "static/media/hardware.png": "/FYP_Project/static/media/hardware.933c0f9a834daf9a837c.png",
+    "static/media/global-impact.png": "/FYP_Project/static/media/global-impact.a1256fd5830a112a8044.png",
+    "static/media/security-first.png": "/FYP_Project/static/media/security-first.0ecf1d564cde0c022995.png",
+    "static/media/battery.png": "/FYP_Project/static/media/battery.84962d7647884e90509a.png",
+    "static/media/continue-inovation.png": "/FYP_Project/static/media/continue-inovation.79834fc59c6ee8140f20.png",
+    "static/media/cloud.png": "/FYP_Project/static/media/cloud.912f11b7ec0f980ae066.png",
+    "static/media/zap.png": "/FYP_Project/static/media/zap.a9122cbdf631c6402e38.png",
+    "static/media/shield.png": "/FYP_Project/static/media/shield.a25bcc03b390430d8e5a.png",
+    "index.html": "/FYP_Project/index.html",
+    "main.6f9ded94.css.map": "/FYP_Project/static/css/main.6f9ded94.css.map",
+    "main.45bbee93.js.map": "/FYP_Project/static/js/main.45bbee93.js.map",
+    "488.d9702bb7.chunk.js.map": "/FYP_Project/static/js/488.d9702bb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f9ded94.css",
+    "static/js/main.45bbee93.js"
+  ]
+}
