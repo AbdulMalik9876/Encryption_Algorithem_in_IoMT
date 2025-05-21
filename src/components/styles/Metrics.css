@@ -1,0 +1,45 @@
+.metrics-section {
+  padding: 40px 0;
+}
+
+.metrics-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.metrics-title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.metrics-charts-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.metrics-chart {
+  flex: 1;
+  min-width: 0;
+  background-color: #183754;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.metrics-subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.metrics-chart-wrapper {
+  height: 300px;
+  position: relative;
+  padding: 10px;
+}

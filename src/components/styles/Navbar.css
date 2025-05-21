@@ -1,0 +1,128 @@
+.navbar {
+  position: fixed; /* Keep navbar always on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(26, 26, 26, 0.5); /* 50% transparent background */
+  backdrop-filter: blur(10px); /* Optional blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  z-index: 999; /* Ensure it stays above all content */
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: 500;
+}
+
+.navbar-link:hover {
+  color: #00bfff;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar-signed-in {
+  color: #65e983; /* Green color to indicate signed-in status */
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.navbar-button {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #00bfff;
+  color: #141414;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: none; /* For the Sign Out button */
+  cursor: pointer; /* For the Sign Out button */
+}
+
+.navbar-button:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #00bfff;
+  border-top: 2px solid #00bfff;
+  scale: 1.1;
+  color: #fff;
+}
+
+.navbar-button.signup {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #65e983;
+  color: #141414;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.navbar-button.signup:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #65e983;
+  border-top: 2px solid #65e983;
+  scale: 1.1;
+  color: #fff;
+}
+
+.navbar-button.signout {
+  background-color: aqua; /* Red color for Sign Out button */
+}
+
+.navbar-button.signout:hover {
+  background-color: transparent;
+  border-bottom: 2px solid aqua;
+  border-top: 2px solid aqua;
+  scale: 1.1;
+  color: #fff;
+}
+
+/* Add to Navbar.css */
+.navbar-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-user-name {
+  color: #f0f0f0;
+  font-weight: 500;
+  font-size: 1rem;
+}

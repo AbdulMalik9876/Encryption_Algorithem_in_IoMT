@@ -1,0 +1,163 @@
+/* OximeterData.css */
+.oximeter-section {
+  padding: 20px;
+  padding-top: 120px;
+  background-color: #061d33; /* Dark blue background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.oximeter-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.oximeter-title {
+  font-size: 3rem;
+  color: aqua; /* Aqua title */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.oximeter-text {
+  text-align: center;
+  color: aqua; /* Aqua text */
+  font-size: 16px;
+}
+
+.oximeter-table-controls {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #16304a;
+  border: 1px solid aqua;
+  border-radius: 8px;
+}
+
+.oximeter-table-controls label {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.oximeter-table-wrapper {
+  max-height: 300px; /* Limit height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 20px;
+  border: 1px solid aqua;
+  border-radius: 8px;
+  display: flex; /* Use flex to control scroll behavior */
+  flex-direction: column-reverse; /* Reverse direction to start from top */
+}
+
+.oximeter-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #16304a;
+}
+
+.oximeter-table th,
+.oximeter-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid aqua;
+  color: #ddd;
+}
+
+.oximeter-table th {
+  background-color: #3498db; /* Blue header */
+  color: #fff;
+  font-weight: bold;
+  position: sticky; /* Keep header sticky while scrolling */
+  top: 0;
+  z-index: 1;
+}
+
+.oximeter-table-row:nth-child(even) {
+  background-color: #2c3e50; /* Dark blue-gray */
+}
+
+.oximeter-table-row:hover {
+  background-color: #1d4062; /* Lighter hover effect */
+}
+
+.oximeter-threshold-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #16304a;
+  border: 1px solid aqua;
+  border-radius: 8px;
+}
+
+.oximeter-threshold-filter label {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.oximeter-threshold-filter button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid aqua;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.oximeter-threshold-filter button:hover {
+  background-color: #2980b9;
+}
+
+.oximeter-date-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #16304a;
+  border: 1px solid aqua;
+  border-radius: 8px;
+}
+
+.oximeter-date-filter label {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.oximeter-date-filter button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid aqua;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.oximeter-date-filter button:hover {
+  background-color: #2980b9;
+}
+
+.oximeter-charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.oximeter-chart {
+  flex: 1;
+  min-width: 300px; /* Ensure charts don’t get too narrow */
+  height: 300px;
+  padding: 20px;
+  background-color: #152f4a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid aqua;
+  margin-bottom: 40px;
+}

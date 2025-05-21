@@ -1,0 +1,140 @@
+.signup-section {
+  padding: 2% 0; /* Matching Login.css padding */
+  background: url('https://res.cloudinary.com/serenaproject/image/upload/v1747168326/FYP/xtjdm9gejcx5j8f3vgic.jpg'); /* Background image from Login.css */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure full viewport height like Login.css */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px; /* Increased padding to match Login.css */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background from Login.css */
+  border-radius: 20px;
+  border: 2px solid aqua; /* Matching Login.css border */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Matching Login.css shadow */
+}
+
+.signup-container:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7); /* Hover effect from Login.css */
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly darker on hover */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.signup-title {
+  color: aqua; /* Matching Login.css title color */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.signup-title:hover {
+  transform: scale(1.05); /* Matching Login.css hover effect */
+  transition: all 0.3s ease;
+  color: #00294d; /* Matching Login.css hover color */
+  text-shadow: 0 0 5px aqua, 0 0 5px aqua, 0 0 10px aqua; /* Matching Login.css text shadow */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Matching Login.css gap */
+}
+
+.signup-label {
+  color: aqua; /* Matching Login.css label color */
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Matching Login.css gap */
+}
+
+.signup-input {
+  background-color: transparent; /* Matching Login.css input style */
+  color: aqua; /* Matching Login.css input text color */
+  padding: 10px;
+  font-size: 16px;
+  border: none; /* Removed default border */
+  border-bottom: 1px solid #ccc; /* Matching Login.css bottom border, using placeholder for --border-color */
+  border-radius: 10px; /* Matching Login.css border radius */
+  outline: none; /* Matching Login.css focus style */
+}
+
+.signup-input:focus {
+  border-bottom-color: #007bff; /* Matching Login.css focus effect, placeholder for dynamic color */
+}
+
+.signup-button {
+  padding: 10px;
+  font-size: 1.2rem; /* Matching Login.css button size */
+  background-color: aqua; /* Matching Login.css button color */
+  color: black; /* Matching Login.css button text color */
+  border: 2px solid aqua; /* Matching Login.css button border */
+  border-radius: 4px; /* Matching Login.css button radius */
+}
+
+.signup-button:hover {
+  background-color: transparent; /* Matching Login.css hover effect */
+  border: 2px solid aqua; /* Matching Login.css hover border */
+  color: aqua; /* Matching Login.css hover text color */
+  cursor: pointer;
+  border-radius: 6px; /* Matching Login.css hover radius */
+  transition: all 0.3s ease; /* Matching Login.css transition */
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 10px; /* Matching Login.css margin */
+  color: white; /* Matching Login.css text color, placeholder */
+}
+
+.signup-link {
+  color: aqua; /* Matching Login.css link color */
+  font-size: 1.3rem; /* Matching Login.css link size */
+  margin-left: 15px; /* Matching Login.css link margin */
+}
+
+.signup-link:hover {
+  color: rgb(255, 255, 255); /* Matching Login.css hover color */
+  text-decoration: underline; /* Matching Login.css hover effect */
+}
+
+/* Notification styles */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #65e983; /* Green background for success */
+  color: #141414;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: fadeInOut 2s ease-in-out;
+  font-size: 1rem;
+}
+
+/* Error notification (optional for failed signup) */
+.notification.error {
+  background-color: #ff4d4d; /* Red background for errors */
+  color: #fff;
+}
+
+/* Fade in and out animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 20px; /* Reduced padding for mobile, matching Login.css */
+    max-width: 90%; /* Matching Login.css responsiveness */
+  }
+}
