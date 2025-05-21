@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #007bff;      /* Main action color (e.g., links, buttons) */
+  --secondary-color: #075395;    /* Secondary text or accents */
+  --background-color: #061d33;   /* Light background */
+  --text-color: #efe9e9;            /* Primary text */
+  --text-light: #e9e7e7;            /* Lighter text */
+  --border-color: #ddd;          /* Borders */
+  --hover-color: #0056b3;        /* Hover state for primary color */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+button {
+  cursor: pointer;
+}
