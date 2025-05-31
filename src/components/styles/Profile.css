@@ -1,4 +1,3 @@
-/* Profile.css */
 .profile-section {
   padding: 20px;
   padding-top: 120px;
@@ -139,6 +138,7 @@
   padding-top: 40px;
   font-size: 16px;
 }
+
 .profile-button {
   margin-top: 10px;
   margin-left: 87px;
@@ -166,7 +166,6 @@
   border: 2px solid aqua;
   cursor: pointer;
   width: fit-content; 
-
 }
 
 .profile-chip-button:hover {
@@ -196,4 +195,236 @@
 
 .profile-sensors li {
   margin: 5px 0;
+}
+
+/* Responsive Adjustments */
+
+/* Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .profile-section {
+    padding: 10px;
+    padding-top: 80px;
+    min-height: calc(100vh - 80px);
+  }
+
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .profile-content {
+    gap: 20px;
+  }
+
+  .profile-box {
+    gap: 15px;
+  }
+
+  .profile-image,
+  .profile-details,
+  .profile-sensors {
+    padding: 15px;
+  }
+
+  .profile-image h3,
+  .profile-details h3,
+  .profile-sensors h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .profile-preview,
+  .profile-no-image {
+    max-width: 150px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-crop-editor img {
+    max-height: 300px;
+  }
+
+  .crop-button,
+  .cancel-button {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .profile-form label,
+  .profile-email-label,
+  .profile-chip-label {
+    font-size: 14px;
+  }
+
+  .profile-input {
+    margin-left: 0;
+    padding: 8px;
+  }
+
+  .profile-email-label {
+    padding-top: 15px;
+  }
+
+  .profile-chip-label {
+    padding-top: 30px;
+  }
+
+  .profile-button {
+    margin-left: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .profile-chip-button {
+    margin-left: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .profile-sensors ul {
+    margin-left: 10px;
+  }
+}
+
+/* Medium Devices (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .profile-section {
+    padding: 15px;
+    padding-top: 100px;
+    min-height: calc(100vh - 100px);
+  }
+
+  .profile-container {
+    max-width: 600px;
+    padding: 18px;
+  }
+
+  .profile-title {
+    font-size: 2.5rem;
+  }
+
+  .profile-content {
+    gap: 25px;
+  }
+
+  .profile-box {
+    gap: 18px;
+  }
+
+  .profile-image,
+  .profile-details,
+  .profile-sensors {
+    padding: 18px;
+  }
+
+  .profile-image h3,
+  .profile-details h3,
+  .profile-sensors h3 {
+    font-size: 1.8rem;
+  }
+
+  .profile-preview,
+  .profile-no-image {
+    max-width: 180px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-crop-editor img {
+    max-height: 350px;
+  }
+
+  .crop-button,
+  .cancel-button {
+    padding: 5px 10px;
+  }
+
+  .profile-form label,
+  .profile-email-label,
+  .profile-chip-label {
+    font-size: 15px;
+  }
+
+  .profile-input {
+    margin-left: 8px;
+    padding: 9px;
+  }
+
+  .profile-button {
+    margin-left: 60px;
+    padding: 7px 14px;
+  }
+
+  .profile-chip-button {
+    margin-left: 90px;
+    padding: 7px 14px;
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .profile-container {
+    max-width: 700px;
+  }
+
+  .profile-title {
+    font-size: 2.8rem;
+  }
+
+  .profile-image h3,
+  .profile-details h3,
+  .profile-sensors h3 {
+    font-size: 1.9rem;
+  }
+
+  .profile-preview,
+  .profile-no-image {
+    max-width: 190px;
+    width: 190px;
+    height: 190px;
+  }
+
+  .profile-button {
+    margin-left: 70px;
+  }
+
+  .profile-chip-button {
+    margin-left: 100px;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .profile-container {
+    max-width: 800px;
+  }
+
+  .profile-title {
+    font-size: 3rem;
+  }
+
+  .profile-image h3,
+  .profile-details h3,
+  .profile-sensors h3 {
+    font-size: 2rem;
+  }
+
+  .profile-preview,
+  .profile-no-image {
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-button {
+    margin-left: 87px;
+  }
+
+  .profile-chip-button {
+    margin-left: 122px;
+  }
 }

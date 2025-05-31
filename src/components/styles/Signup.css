@@ -131,10 +131,143 @@
   100% { opacity: 0; transform: translateY(-10px); }
 }
 
-/* Responsive Design */
+/* Responsive Adjustments */
+
+/* Very Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .signup-section {
+    padding: 5% 0;
+  }
+
+  .signup-container {
+    width: 90%;
+    max-width: 300px;
+    padding: 20px;
+  }
+
+  .signup-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .signup-input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .signup-button {
+    padding: 8px;
+    font-size: 1rem;
+  }
+
+  .signup-link {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+
+  .notification {
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Devices (577px to 768px) - Refining the existing mobile layout */
+@media (min-width: 577px) and (max-width: 768px) {
+  .signup-section {
+    padding: 3% 0;
+  }
+
+  .signup-container {
+    width: 90%;
+    max-width: 350px;
+    padding: 30px;
+  }
+
+  .signup-title {
+    font-size: 1.8rem;
+  }
+
+  .signup-input {
+    padding: 9px;
+    font-size: 15px;
+  }
+
+  .signup-button {
+    padding: 9px;
+    font-size: 1.1rem;
+  }
+
+  .signup-link {
+    font-size: 1.2rem;
+  }
+
+  .notification {
+    padding: 12px 18px;
+  }
+}
+
+/* Original Mobile Layout (max-width: 768px) */
 @media (max-width: 768px) {
   .signup-container {
     padding: 20px; /* Reduced padding for mobile, matching Login.css */
     max-width: 90%; /* Matching Login.css responsiveness */
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .signup-container {
+    width: 380px;
+    padding: 35px;
+  }
+
+  .signup-title {
+    font-size: 1.9rem;
+  }
+
+  .signup-input {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .signup-button {
+    padding: 10px;
+    font-size: 1.15rem;
+  }
+
+  .signup-link {
+    font-size: 1.25rem;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .signup-container {
+    width: 400px;
+    padding: 40px;
+  }
+
+  .signup-title {
+    font-size: 2rem;
+  }
+
+  .signup-input {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .signup-button {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .signup-link {
+    font-size: 1.3rem;
+  }
+
+  .notification {
+    padding: 15px 20px;
   }
 }

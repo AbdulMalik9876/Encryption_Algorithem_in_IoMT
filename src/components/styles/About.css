@@ -80,7 +80,7 @@
   color: rgb(189, 188, 188);
 }
 
-.about-list-heading{
+.about-list-heading {
   font-size: 1.2rem;
   color: #fff; /* Placeholder for --text-color */
   margin-bottom: -10px;
@@ -91,6 +91,7 @@
   margin-top: 4px;
   color: #a0aec0; /* Placeholder for --text-light */
 }
+
 .about-icon {
   width: 50px;
   margin-right: 15px;
@@ -128,12 +129,14 @@
 }
 
 .about-button:hover {
-  background-color: transparent; 
-  color: aqua; 
-  border: 1px solid aqua; 
+  background-color: transparent;
+  color: aqua;
+  border: 1px solid aqua;
 }
 
 /* Responsive Design */
+
+/* Original Media Query (768px and below) */
 @media (max-width: 768px) {
   .about-story-content,
   .about-mission-content {
@@ -147,5 +150,149 @@
 
   .about-text-column {
     order: 1; /* Text above image on mobile */
+  }
+}
+
+/* Extra Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .about-heading {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+  }
+
+  .about-story-content,
+  .about-mission-content {
+    gap: 15px;
+  }
+
+  .about-list-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .about-join {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-heading-team {
+    font-size: 2rem;
+  }
+
+  .about-join .about-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .about-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Devices (between 768px and 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .about-container {
+    max-width: 900px;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-story-content,
+  .about-mission-content {
+    gap: 15px;
+  }
+
+  .about-image-column img {
+    max-height: 300px;
+  }
+
+  .about-join {
+    padding: 30px;
+  }
+
+  .about-button {
+    padding: 8px 18px;
+  }
+}
+
+/* Large Devices (between 993px and 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .about-container {
+    max-width: 1000px;
+  }
+
+  .about-title {
+    font-size: 2.3rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .about-heading {
+    font-size: 1.9rem;
+  }
+
+  .about-story-content,
+  .about-mission-content {
+    gap: 25px;
+  }
+
+  .about-image-column img {
+    max-height: 350px;
+  }
+
+  .about-join {
+    padding: 35px;
+  }
+}
+
+/* Extra Large Devices (above 1200px) */
+@media (min-width: 1201px) {
+  .about-container {
+    max-width: 1200px;
+  }
+
+  .about-story-content,
+  .about-mission-content {
+    gap: 30px;
+  }
+
+  .about-image-column img {
+    max-height: 400px;
+  }
+
+  .about-join {
+    padding: 40px;
   }
 }

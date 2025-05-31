@@ -35,7 +35,6 @@
   margin-bottom: 10px;
   height: auto;
   /* mix-blend-mode: multiply; */
-  
 }
 
 .highlights-title {
@@ -46,4 +45,126 @@
 
 .highlights-text {
   color: var(--text-light);
+}
+
+/* Responsive Adjustments */
+
+/* Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .highlights-section {
+    padding: 20px 0;
+  }
+
+  .highlights-container {
+    padding: 0 10px;
+  }
+
+  .highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .highlights-item {
+    padding: 15px 10px;
+    margin: 0 5px;
+  }
+
+  .highlights-icon {
+    width: 40px;
+  }
+
+  .highlights-title {
+    font-size: 1.2rem;
+  }
+
+  .highlights-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Devices (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .highlights-container {
+    max-width: 700px;
+  }
+
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .highlights-item {
+    padding: 20px 15px;
+    margin: 0 8px;
+  }
+
+  .highlights-icon {
+    width: 45px;
+  }
+
+  .highlights-title {
+    font-size: 1.3rem;
+  }
+
+  .highlights-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .highlights-container {
+    max-width: 900px;
+  }
+
+  .highlights-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  .highlights-item {
+    padding: 22px 18px;
+    margin: 0 9px;
+  }
+
+  .highlights-icon {
+    width: 48px;
+  }
+
+  .highlights-title {
+    font-size: 1.4rem;
+  }
+
+  .highlights-text {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .highlights-container {
+    max-width: 1200px;
+  }
+
+  .highlights-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .highlights-item {
+    padding: 25px 20px;
+    margin: 0 10px;
+  }
+
+  .highlights-icon {
+    width: 50px;
+  }
+
+  .highlights-title {
+    font-size: 1.5rem;
+  }
+
+  .highlights-text {
+    font-size: 1rem;
+  }
 }

@@ -45,7 +45,6 @@
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: -5px;
-  
 }
 
 .team-bio {
@@ -53,4 +52,154 @@
   font-size: 0.9rem;
   width: 50%;
   margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+
+/* Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .team-container {
+    padding: 15px 0;
+  }
+
+  .team-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+  .team-members {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .team-member {
+    min-width: 100%;
+  }
+
+  .team-image {
+    width: 120px;
+  }
+
+  .team-name {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+
+  .team-role {
+    font-size: 1rem;
+    margin-top: -3px;
+  }
+
+  .team-bio {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+}
+
+/* Medium Devices (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .team-container {
+    padding: 20px 0;
+  }
+
+  .team-title {
+    font-size: 2.2rem;
+  }
+
+  .team-members {
+    gap: 18px;
+  }
+
+  .team-member {
+    min-width: 180px;
+  }
+
+  .team-image {
+    width: 140px;
+  }
+
+  .team-name {
+    font-size: 1.4rem;
+  }
+
+  .team-role {
+    font-size: 1.1rem;
+  }
+
+  .team-bio {
+    font-size: 0.85rem;
+    width: 70%;
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .team-container {
+    padding: 25px 0;
+  }
+
+  .team-title {
+    font-size: 2.3rem;
+  }
+
+  .team-members {
+    gap: 18px;
+  }
+
+  .team-member {
+    min-width: 190px;
+  }
+
+  .team-image {
+    width: 145px;
+  }
+
+  .team-name {
+    font-size: 1.45rem;
+  }
+
+  .team-role {
+    font-size: 1.15rem;
+  }
+
+  .team-bio {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .team-container {
+    padding: 30px 0;
+  }
+
+  .team-title {
+    font-size: 2.5rem;
+  }
+
+  .team-members {
+    gap: 20px;
+  }
+
+  .team-member {
+    min-width: 200px;
+  }
+
+  .team-image {
+    width: 150px;
+  }
+
+  .team-name {
+    font-size: 1.5rem;
+  }
+
+  .team-role {
+    font-size: 1.2rem;
+  }
+
+  .team-bio {
+    font-size: 0.9rem;
+    width: 50%;
+  }
 }

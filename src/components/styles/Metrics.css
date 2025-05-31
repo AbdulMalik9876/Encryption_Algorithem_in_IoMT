@@ -43,3 +43,123 @@
   position: relative;
   padding: 10px;
 }
+
+/* Responsive Adjustments */
+
+/* Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .metrics-section {
+    padding: 20px 0;
+  }
+
+  .metrics-container {
+    padding: 0 10px;
+  }
+
+  .metrics-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .metrics-charts-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .metrics-chart {
+    min-width: 100%;
+  }
+
+  .metrics-subtitle {
+    font-size: 1.2rem;
+    padding: 8px 0;
+  }
+
+  .metrics-chart-wrapper {
+    height: 200px;
+    padding: 5px;
+  }
+}
+
+/* Medium Devices (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .metrics-container {
+    max-width: 700px;
+  }
+
+  .metrics-title {
+    font-size: 1.8rem;
+  }
+
+  .metrics-charts-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .metrics-chart {
+    min-width: 100%;
+  }
+
+  .metrics-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .metrics-chart-wrapper {
+    height: 250px;
+    padding: 8px;
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .metrics-container {
+    max-width: 900px;
+  }
+
+  .metrics-title {
+    font-size: 1.9rem;
+  }
+
+  .metrics-charts-row {
+    gap: 18px;
+  }
+
+  .metrics-chart {
+    min-width: 45%;
+  }
+
+  .metrics-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .metrics-chart-wrapper {
+    height: 280px;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .metrics-container {
+    max-width: 1200px;
+  }
+
+  .metrics-title {
+    font-size: 2rem;
+  }
+
+  .metrics-charts-row {
+    gap: 20px;
+  }
+
+  .metrics-chart {
+    min-width: 0;
+  }
+
+  .metrics-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .metrics-chart-wrapper {
+    height: 300px;
+  }
+}
