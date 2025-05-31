@@ -122,7 +122,144 @@
   color: #a0aec0;
 }
 
-/* Responsive Design */
+/* Responsive Adjustments */
+
+/* Very Small Devices (below 576px) */
+@media (max-width: 576px) {
+  .technology-section {
+    padding: 20px 0;
+    padding-top: 80px;
+  }
+
+  .technology-container {
+    padding: 0 10px;
+  }
+
+  .technology-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .technology-content {
+    gap: 15px;
+  }
+
+  .technology-row {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .technology-text-column {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .technology-image-column {
+    order: 2;
+    padding: 20px;
+  }
+
+  .technology-image-column img {
+    border-radius: 8px;
+  }
+
+  .technology-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .technology-text {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+
+  .technology-features li {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+
+  .technology-security-features {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .security-item {
+    height: 80px;
+    padding: 8px;
+  }
+
+  .security-icon {
+    font-size: 1.3rem;
+  }
+
+  .security-item h4 {
+    font-size: 1rem;
+  }
+
+  .security-item p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Medium Devices (577px to 768px) - Refining the existing mobile layout */
+@media (min-width: 577px) and (max-width: 768px) {
+  .technology-section {
+    padding: 30px 0;
+    padding-top: 100px;
+  }
+
+  .technology-container {
+    max-width: 700px;
+  }
+
+  .technology-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .technology-row {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .technology-text-column {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .technology-image-column {
+    order: 2;
+    padding: 30px;
+  }
+
+  .technology-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .technology-text {
+    font-size: 1rem;
+  }
+
+  .technology-features li {
+    font-size: 0.95rem;
+  }
+
+  .technology-security-features {
+    gap: 15px;
+  }
+
+  .security-item {
+    height: 90px;
+  }
+
+  .security-icon {
+    font-size: 1.4rem;
+  }
+}
+
+/* Original Mobile Layout (max-width: 768px) */
 @media (max-width: 768px) {
   .technology-row {
     flex-direction: column; /* Stack text and image vertically on mobile */
@@ -135,5 +272,83 @@
 
   .technology-text-column {
     order: 1; /* Text above image on mobile */
+  }
+}
+
+/* Large Devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .technology-container {
+    max-width: 900px;
+  }
+
+  .technology-title {
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+  }
+
+  .technology-row {
+    gap: 18px;
+    padding: 18px;
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+  }
+
+  .technology-text-column {
+    padding-top: 35px;
+    padding-left: 25px;
+  }
+
+  .technology-image-column {
+    padding: 35px;
+  }
+
+  .technology-subtitle {
+    font-size: 1.7rem;
+  }
+
+  .technology-text {
+    font-size: 1.05rem;
+  }
+
+  .technology-security-features {
+    gap: 18px;
+  }
+}
+
+/* Extra Large Devices (above 992px) */
+@media (min-width: 993px) {
+  .technology-container {
+    max-width: 1200px;
+  }
+
+  .technology-title {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+
+  .technology-row {
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap; /* Ensure side-by-side layout */
+  }
+
+  .technology-text-column {
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+
+  .technology-image-column {
+    padding: 40px;
+  }
+
+  .technology-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .technology-text {
+    font-size: 1.1rem;
+  }
+
+  .technology-security-features {
+    gap: 20px;
   }
 }
